@@ -1,0 +1,11 @@
+#!/bin/bash
+# See README.md for setup and explanation.
+
+START_PAGE="https://your-desired-website.example"
+ZEN_BIN="/opt/zen-browser-bin/zen-bin"
+
+if [ "$#" -eq 0 ]; then
+  exec "$ZEN_BIN" "$START_PAGE"
+else
+  exec "$ZEN_BIN" "$@"
+fi
