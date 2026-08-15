@@ -1,4 +1,4 @@
-# Setting a Custom Start Page in Zen Browser (Without Breaking External Links)
+# Setting a Custom Start Page in Zen Browser (Without Duplicate Tabs/Windows on External Links)
 
 How to make Zen Browser on Linux open a fixed start page every time it's launched from an icon/app launcher, without that page also getting pulled into links handed to Zen by other applications via `xdg-open`.
 
